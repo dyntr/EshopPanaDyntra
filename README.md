@@ -241,9 +241,8 @@ Tento projekt poskytuje kompletní řešení pro správu dat e-shopu, včetně s
 
 ---
 
-** Autor: Patrick Dyntr**  
+**Autor: Patrick Dyntr**  
 Třída: C3b  
 Telefon: +420607111006  
 Email: dyntr@spsejecna.cz  
 Škola: SPŠE Ječná 
-Popis: Závěrečná práce 3. ročníku.
