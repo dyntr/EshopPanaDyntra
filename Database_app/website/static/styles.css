@@ -1,0 +1,87 @@
+/* General Button Styles */
+.btn-primary {
+  background-color: #ff4b2b !important;
+  border-color: #ff4b2b !important;
+  border-radius: 15px !important;
+  box-shadow: 0px 0px 10px #b6351eab !important;
+}
+.btn-primary:hover {
+  background-color: #b6351e !important;
+}
+
+.btn-secondary {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.346);
+  border-radius: 15px !important;
+}
+
+.btn-outline-secondary {
+  border-color: #ff4b2b !important;
+  border-radius: 15px !important;
+}
+.btn-outline-secondary:hover {
+  background-color: #ff4b2b !important;
+  box-shadow: 0px 0px 10px #b6351eab !important;
+}
+
+/* Form Control Styles */
+.form-group input.form-control {
+  padding: 30px !important;
+}
+
+/* List Item Styles */
+.list-item {
+  outline: none !important;
+  border-color: #ff4b2b;
+  border-radius: 15px !important;
+  box-shadow: 0px 0px 30px #00000026 !important;
+}
+.list-item:hover {
+  border-radius: 15px !important;
+  background-color: transparent !important;
+  box-shadow: 0px 0px 30px #ff47276d !important;
+  text-decoration: none !important;
+}
+.list-item a {
+  transition: 0.5s;
+  border-radius: 15px !important;
+  text-decoration: none !important;
+}
+.list-item a:hover {
+  background-color: #ff4b2b !important;
+  color: white !important;
+}
+
+/* Card Styles */
+.card {
+  transition: 0.5s;
+}
+.card:hover {
+  transform: scale(110%) !important;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+  .btn-primary, .btn-secondary, .btn-outline-secondary {
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 10px !important;
+  }
+
+  .form-group input.form-control {
+    padding: 20px !important;
+  }
+
+  .list-item {
+    box-shadow: 0px 0px 20px #00000026 !important;
+    margin-bottom: 10px;
+  }
+
+  .card {
+    transform: none !important;
+    margin-bottom: 20px;
+  }
+
+  .card:hover {
+    transform: scale(105%) !important;
+  }
+}
